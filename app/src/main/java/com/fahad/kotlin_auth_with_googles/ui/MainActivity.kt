@@ -1,4 +1,4 @@
-package com.fahad.kotlin_auth_with_googles
+package com.fahad.kotlin_auth_with_googles.ui
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
