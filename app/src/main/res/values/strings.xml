@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">kotlin_auth_with_googles</string>
+    <string name="web_client_id">505761053231-sk3ul9ku8pd686ue0uvf4d2rj61p58oo.apps.googleusercontent.com</string>
+
 </resources>
