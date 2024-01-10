@@ -84,16 +84,8 @@ fun AuthScreen(
     // Spacer
     Spacer(modifier = Modifier.height(16.dp))
 
-
-
-
-
-
-
-
-
+    // Other UI components...
 
 
   }
 }
-

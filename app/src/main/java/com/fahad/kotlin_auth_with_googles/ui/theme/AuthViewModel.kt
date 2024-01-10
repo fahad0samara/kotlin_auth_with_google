@@ -62,8 +62,6 @@ class AuthViewModel @Inject constructor(
       is Response.Failure -> {
         print(response.e)
         // You can handle the error in the UI as needed
-        Log.e("AuthViewModel", "handleOneTapSignInResponse: ${response.e}")
-
       }
       is Response.Loading -> {
         // Handle loading state if needed
@@ -78,9 +76,7 @@ class AuthViewModel @Inject constructor(
       is Response.Success -> response.data?.let { onSuccess(it) }
       is Response.Failure -> {
         print(response.e)
-        Log.e("AuthViewModel", "handleSignInWithGoogleResponse: ${response.e}")
-
-
+        // You can handle the error in the UI as needed
       }
       is Response.Loading -> {
         // Handle loading state if needed

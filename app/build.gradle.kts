@@ -6,6 +6,8 @@ plugins {
   alias(libs.plugins.kotlinKsp)
 }
 
+
+
 android {
   namespace = "com.fahad.kotlin_auth_with_googles"
   compileSdk = 34
@@ -40,7 +42,7 @@ android {
     compose = true
   }
   composeOptions {
-    kotlinCompilerExtensionVersion = "1.5.4"
+    kotlinCompilerExtensionVersion = "1.5.5"
   }
   packaging {
     resources {
@@ -48,7 +50,6 @@ android {
     }
   }
 }
-
 dependencies {
 
   implementation(libs.core.ktx)
@@ -123,7 +124,6 @@ dependencies {
 ksp {
   // All KSP Gradle plugin options
   arg("com.google.devtools.ksp.incremental.apt", "true")
-
 
 
 }
