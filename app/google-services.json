@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "1016693253771",
-    "project_id": "kotlinauthwith-4fcd5",
-    "storage_bucket": "kotlinauthwith-4fcd5.appspot.com"
+    "project_number": "105314245373",
+    "project_id": "webclientid-c94e6",
+    "storage_bucket": "webclientid-c94e6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1016693253771:android:01e52ea8a825cd54c5568e",
+        "mobilesdk_app_id": "1:105314245373:android:6a598bfe3f82b3ed4e7c94",
         "android_client_info": {
-          "package_name": "com.fahad.kotlin_auth_with_googles"
+          "package_name": "com.fahad.kotlin_auth_with_google"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCkV68z3AN5l0SGzl5eZgqQZagbM8CoxgQ"
+          "current_key": "AIzaSyCQuvNY0LE6v5J8plu_ebf0I5gCyaik4c8"
         }
       ],
       "services": {

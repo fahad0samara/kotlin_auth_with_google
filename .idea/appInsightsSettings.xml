@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="com.fahad.kotlin_auth_with_googles" />
-                  <option name="mobileSdkAppId" value="1:1016693253771:android:01e52ea8a825cd54c5568e" />
-                  <option name="projectId" value="kotlinauthwith-4fcd5" />
-                  <option name="projectNumber" value="1016693253771" />
+                  <option name="appId" value="com.fahad.kotlin_auth_with_google" />
+                  <option name="mobileSdkAppId" value="1:105314245373:android:6a598bfe3f82b3ed4e7c94" />
+                  <option name="projectId" value="webclientid-c94e6" />
+                  <option name="projectNumber" value="105314245373" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -1,19 +1,18 @@
 plugins {
   alias(libs.plugins.androidApplication)
-  alias(libs.plugins.jetbrainsKotlinAndroid)
+  alias(libs.plugins.kotlinAndroid)
+
   alias(libs.plugins.googleServices)
   alias(libs.plugins.hiltAndroid)
   alias(libs.plugins.kotlinKsp)
 }
 
-
-
 android {
-  namespace = "com.fahad.kotlin_auth_with_googles"
+  namespace = "com.fahad.kotlin_auth_with_google"
   compileSdk = 34
 
   defaultConfig {
-    applicationId = "com.fahad.kotlin_auth_with_googles"
+    applicationId = "com.fahad.kotlin_auth_with_google"
     minSdk = 29
     targetSdk = 34
     versionCode = 1
@@ -50,6 +49,7 @@ android {
     }
   }
 }
+
 dependencies {
 
   implementation(libs.core.ktx)
